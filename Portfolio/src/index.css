@@ -191,7 +191,7 @@ height: 100vh;
     height: 100vh;
 }
 .main-img{
-    height: 330px;
+    height: 320px;
     width:330px;
     margin-top: 30px;
     border: none;
@@ -200,6 +200,8 @@ height: 100vh;
    margin-left: auto;
    display: flex;
    margin-right: 0;
+   object-fit: cover;
+   
     
 }
 .l-icon{
@@ -471,7 +473,7 @@ height: 100vh;
     height: max-content;
 }
 .main-img{
-    height: 330px;
+    height: 320px;
     width:330px;
     margin-top: 30px;
     border: none;
@@ -479,8 +481,9 @@ height: 100vh;
     border-bottom-left-radius: 50%;
    margin-left: auto;
    display: flex;
-  
    margin-right: 0;
+   object-fit: cover;
+   
     
 }
 .l-icon{
@@ -738,11 +741,11 @@ height: 100vh;
     flex-direction: row-reverse;
 }
 .main-img{
-    height: 810px;
-    width:810px;
+    height: 710px;
+    width:620px;
     margin-top: 30px;
     border: none;
-    
+    border-radius: 20px;
    margin-left: auto;
    display: flex;
    margin-right: 0;
@@ -1021,11 +1024,11 @@ height: 100vh;
     flex-direction: row-reverse;
 }
 .main-img{
-    height: 810px;
-    width:810px;
+    height: 710px;
+    width:620px;
     margin-top: 30px;
     border: none;
-    
+    border-radius: 20px;
    margin-left: auto;
    display: flex;
    margin-right: 0;
@@ -1283,15 +1286,15 @@ height: 100vh;
     height: 100vh;
 }
 .main-img{
-    height: 330px;
-    width:330px;
+    height: 710px;
+    width:620px;
     margin-top: 30px;
     border: none;
-     border-top-left-radius: 50%;
-    border-bottom-left-radius: 50%;
+    border-radius: 20px;
    margin-left: auto;
    display: flex;
    margin-right: 0;
+   
     
 }
 .above{

@@ -2,8 +2,8 @@ import React, { useContext } from "react";
 import Navbar from "./Navbar.jsx";
 import DarkContext from "./DarkContext.jsx";
 import { useNavigate } from "react-router-dom";
-import man from "./assets/man.png"
-import me from "./assets/me.png"
+
+import iam from "./assets/iam.jpeg"
 const Home = () => {
   const navigate = useNavigate();
   const { dark, setDark ,page} = useContext(DarkContext);
@@ -22,7 +22,7 @@ const Home = () => {
       </div>
       <div className="h-fix">
       <div className="set-pi">
-        <img src={man} alt="" className="main-img" />
+        <img src={iam} alt="" className="main-img" />
       </div>
       <div className="set-pb">
         <div className="set-p">
