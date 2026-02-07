@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import Navbar from "./Navbar.jsx";
 import DarkContext from "./DarkContext.jsx";
 import { useNavigate } from "react-router-dom";
-import man from "./assets/man.png"
+
 import iam from "./assets/iam.jpeg"
 const Home = () => {
   const navigate = useNavigate();
